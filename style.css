@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #c4ee7b;
+}
+
+.container{
+    background: white;
+    width: 350px;
+    padding: 20px;
+    position: absolute;
+     top: 35%;
+     left: 50%; 
+    transform: translate(-50%,-50%);
+    border-radius: 7px; 
+   
+}
+
+.container .celsius, .container .fahrenheit{
+     height: 80px; 
+    width: 45%;
+    float: left;
+}
+
+.container .fahrenheit{
+    margin-left: 30px;
+    padding-left: 20px;
+}
+
+.container .celsius h4 , .container .fahrenheit h4{
+font-weight: 500;
+color: black;
+font-size: 14px;
+margin-top: 15px;
+}
+
+.container .celsius input, .container .fahrenheit input{
+    all: unset;
+    height: 45px;
+    width: 100px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    padding-left: 20px;
+    font-size: 22px;
+    margin-top: 5px;
+} 
+
+.container .fa-solid{
+    position: absolute;
+    top: 70px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.container .formula-box{
+    height: 40px;
+    width:100% ;
+    margin-top: 110px;
+}
+
+.container .formula-box div{
+    height: 30px;
+    width: 90px;
+    background: #7B68EE;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.container .formula-box p{
+    white-space: nowrap;
+    margin-left: 100px;
+    position: relative;
+    top: -25px;
+}
